@@ -1,7 +1,7 @@
-transformers==4.19.2 # do not change
-diffusers==0.3.0
+transformers==5.10.1 # do not change
+diffusers==0.38.0
 invisible-watermark==0.1.5
-pytorch_lightning==1.7.7
+pytorch_lightning==2.6.1
 open-clip-torch
 loguru
 taming-transformers-rom1504==0.0.6  # required by ldm
@@ -19,16 +19,16 @@ git+https://github.com/crowsonkb/k-diffusion.git
 pynvml==11.4.1
 omegaconf==2.2.3
 
-Jinja2==3.1.2  # Jinja2 is required by Gradio
+Jinja2==3.1.6  # Jinja2 is required by Gradio
 # Note: Jinja2 3.x major version required due to breaking changes found in markupsafe==2.1.1; 2.0.1 is incompatible with other upstream dependencies
 # see https://github.com/pallets/markupsafe/issues/304
 
 
 # Environment Dependencies for WebUI (gradio)
-gradio==3.4
+gradio==6.16.0
 
 # Environment Dependencies for WebUI (streamlit)
-streamlit==1.13.0
+streamlit==1.54.0
 streamlit-on-Hover-tabs==1.0.1
 streamlit-option-menu==0.3.2
 streamlit_nested_layout==0.1.1
@@ -42,7 +42,7 @@ ftfy==6.1.1
 fairscale==0.4.4
 regex
 timm==0.6.7
-tqdm==4.64.0
+tqdm==4.66.3
 tensorboard==2.10.1
 
 
@@ -60,7 +60,7 @@ realesrgan==0.3.0  # RealESRGAN brings in GFPGAN as a requirement
 -e git+https://github.com/devilismyfriend/latent-diffusion#egg=latent-diffusion  #ldsr
 
 ## for monocular depth estimation 
-tensorflow==2.10.0
+tensorflow==2.12.1
 
 
 # Orphaned Packages:  No usage found
